@@ -5,7 +5,7 @@ Welcome to my project! Here are some description of my project:
   - Especially, it is the type of responsiveness website.
   
 ## Hosting
-    I host my webpage on [Visit Netlify](https://www.netlify.com/)
+    I host my webpage on Netlify https://www.netlify.com/
 
 ## Visit my website
    https://mytailwindcssweb.netlify.app/
