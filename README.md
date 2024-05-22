@@ -7,5 +7,5 @@ Welcome to my project! Here are some description of my project:
 ## Hosting
    I host my webpage on [Netlify](https://www.netlify.com)
 
-## Visit my website
+## Visit my portfolio
    https://mytailwindcssweb.netlify.app/
