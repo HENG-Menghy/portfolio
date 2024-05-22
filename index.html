@@ -10,16 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
-     <!-- style -->
-    <link rel="stylesheet" href="./style.css" type="text/css">
     <!-- icon in title -->
     <link rel="icon" href="./img/photo.png">
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <!-- CDN of Animate.css library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 <!-- Home page -->
     <!-- Navigation bar -->
     <header>
-        <div class="nav-logo">
+        <div class="nav-logo animate__animated animate__flash animate__delay-1s">
             <a href="#">Frontend<span>Code</span></a>
         </div>
         <div class="nav-list">
@@ -49,14 +51,19 @@
 
     <!-- Home section -->
     <section class="home">
-        <div class="home text">
+        <!-- animate__animated animate__lightSpeedInLeft animate__delay-900ms -->
+        <div class="home-text animate__animated animate__lightSpeedInLeft animate__delay-900ms ">
             <h2>Hello,</h2>
             <h1>I'm a Frontend Developer</h1>
             <button type="submit">Hire me</button>
         </div>
-        <div class="home image">
-            <img src="./img/photo.png" alt="My photo">
+        <!-- animate__animated animate__lightSpeedInRight animate__delay-900ms -->
+        <div class="home-image animate__animated animate__lightSpeedInRight animate__delay-900ms">
+            <img class="animate__animated animate__lightSpeedInRight animate__delay-900ms" src="./img/photo.png" alt="My photo">
         </div>
     </section>
+
+    <!-- script link -->
+    <script src="./index.js" type="text/javascript"> </script>
 </body>
 </html>
