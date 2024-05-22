@@ -126,7 +126,7 @@ button:hover {
 /* Tablet */
 @media only screen and (max-width: 991px) {
     section {
-        padding-top: 15%;
+        padding-top: 130px;
     }
     .home-text h1 {
         font-size: 2rem;
@@ -153,9 +153,6 @@ button:hover {
         display: block;
         padding-block: 25px;
     }
-    .nav-list ul a:hover {
-        background: transparent;
-    }
     .nav-menu {
         display: block;
     }
@@ -167,7 +164,7 @@ button:hover {
 /* Laptop and other devices bigger than */
 @media only screen and (min-width: 992px) {
     section {
-        padding-top: 20%;
+        padding-top: 170px;
     }
     .home-text h1 {
         font-size: 2.5rem;
