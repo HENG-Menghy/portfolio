@@ -134,6 +134,10 @@ button:hover {
     }
     .home-image {
         padding-bottom: 30px;
+        z-index: -1;
+    }
+    .home-text {
+        z-index: -1;
     }
     .nav-list {
         display: block;
@@ -144,6 +148,7 @@ button:hover {
         height: 400px;
         background: var(--secondary-color);
         overflow: hidden;
+        z-index: 1;
     }
     .nav-list ul {
         display: block;
